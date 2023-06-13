@@ -1,6 +1,10 @@
 # cleanDesktop
+Note : Regrettably, Antiviruses mistakenly label my Go project as a virus, casting unwarranted doubt. I humbly assure you that it is a false positive, as my code is innocuous and devoid of any malicious elements.
 
 cleanDesktop is a command-line tool written in Go that helps you organize files in a folder based on their extensions. It creates subfolders for each unique file extension and moves the corresponding files into their respective folders.
+
+
+
 
 ## Installation
 
