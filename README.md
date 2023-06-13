@@ -1,6 +1,6 @@
-# Clean Desktop
+# cleanDesktop
 
-Clean Desktop is a command-line tool written in Go that helps you organize files in a folder based on their extensions. It creates subfolders for each unique file extension and moves the corresponding files into their respective folders.
+cleanDesktop is a command-line tool written in Go that helps you organize files in a folder based on their extensions. It creates subfolders for each unique file extension and moves the corresponding files into their respective folders.
 
 ## Installation
 
