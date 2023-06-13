@@ -30,7 +30,7 @@ func WalkDirectory(searchDirectory, root string) error {
 		if !fileInfo.IsDir() {
 			// Get the file extension
 			ext := filepath.Ext(fileInfo.Name())
-			if ext != ".ink" && fileInfo.Name() != "go-organizer.exe" {
+			if ext != ".ink" && fileInfo.Name() != "cleanDesktop.exe" {
 
 				destinationFolderName := strings.ToUpper(ext[1:]) + "s"
 				destinationFilePath := path.Join(root, destinationFolderName, fileInfo.Name())
