@@ -21,6 +21,7 @@ func main() {
 
 	err := functs.WalkDirectory(searchDirectory, rootFileName)
 	if err != nil {
+		
 		log.Printf("Error: %s", err)
 		fmt.Println("An error occurred while organizing files.")
 	} else {
